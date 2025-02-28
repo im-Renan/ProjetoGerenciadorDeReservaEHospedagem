@@ -18,22 +18,22 @@ O sistema permite cadastrar clientes e funcionários, gerenciar reservas, check-
 * 📂 Banco de Dados: MySQL
 * 🔗 Bibliotecas: JDBC (para conexão com MySQL), Swing (para interface gráfica)
 
-# Como Executar 
-** 1-Requisitos **
+# Como Executar
 
-* Java JDK 8+ instalado
+###**1-Requisitos**
 
-* MySQL instalado e rodando
+- Java JDK 8+ instalado
+- MySQL instalado e rodando
+- Eclipse (ou outra IDE compatível)
 
-* Eclipse (ou outra IDE compatível)
 
+###**2-Configuração do Banco de Dados**
 
-** 2-Configuração do Banco de Dados**
-
-* Antes de rodar o sistema, crie o banco de dados no MySQL Workbench:
-
+* Antes de rodar o sistema, crie o banco de dados no **MySQL Workbench:**
+  
+```sql 
 CREATE DATABASE gerenciador_reservas;
-USE gerenciador_reservas;
+USE gerenciador_reservas; 
 
  * Compilação e Execução
 
