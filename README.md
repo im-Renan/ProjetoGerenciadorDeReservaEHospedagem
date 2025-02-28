@@ -12,3 +12,44 @@ O sistema permite cadastrar clientes e funcionários, gerenciar reservas, check-
 • Reservar Hospedagens: Permite a reserva e cancelamento de hospedagens.  
 • Check-in e Check-out: Gerencia entradas e saídas de hóspedes.  
 • Gerenciar Serviços Adicionais: Inclui passeios turísticos e transfer.
+
+# Tecnologias Utilizadas
+* 🖥️ Linguagem de Programação: Java
+* 📂 Banco de Dados: MySQL
+* 🔗 Bibliotecas: JDBC (para conexão com MySQL), Swing (para interface gráfica)
+
+# Como Executar 
+** 1-Requisitos **
+
+* Java JDK 8+ instalado
+
+* MySQL instalado e rodando
+
+* Eclipse (ou outra IDE compatível)
+
+
+** 2-Configuração do Banco de Dados**
+
+* Antes de rodar o sistema, crie o banco de dados no MySQL Workbench:
+
+CREATE DATABASE gerenciador_reservas;
+USE gerenciador_reservas;
+
+ * Compilação e Execução
+
+1. Clone o repositório:
+
+git clone https://github.com/Deckard-exe/GerenciadorDeReservasEHospedagem.git
+
+2. Importe o projeto no Eclipse.
+
+3. No arquivo ConexaoBD.java, altere as credenciais do banco:
+
+private static final String URL = "jdbc:mysql://localhost:3306/gerenciador_reservas";
+private static final String USUARIO = "root"; 
+private static final String SENHA = "sua_senha";
+
+4. Compile e execute o programa:
+
+javac -d bin src/*.java
+java -cp bin Main
