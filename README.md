@@ -59,13 +59,16 @@ java -cp bin Main
 ```
 
 # Estrutura do Projeto
-📂 src/ (Código-fonte)
-📁 exceptions/ (Exceções personalizadas)
-📁 hospedagens/ (Classes para tipos de hospedagem)
-📁 servicosAdicionais/ (Serviços extras como transfer e passeios)
-📁 reservaControle/ (Gerenciamento de reservas)
-📁 usuarios/ (Clientes e funcionários)
-📄 ConexaoBD.java (Gerencia a conexão com MySQL)
+```PlainText
+src/
+│
+├── exceptions/               # Exceções personalizadas
+├── hospedagens/              # Classes para tipos de hospedagem
+├── servicosAdicionais/       # Serviços extras como transfer e passeios
+├── reservaControle/          # Gerenciamento de reservas
+├── usuarios/                 # Clientes e funcionários
+└── ConexaoBD.java            # Gerencia a conexão com MySQL
+```
 
 # Autor
 - Desenvolvido por: @Deckard-exe e @anjelop
