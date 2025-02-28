@@ -71,5 +71,5 @@ src/
 ```
 
 # Autor
-- Desenvolvido por: @Deckard-exe e @anjelop
+- Desenvolvido por: @Deckard-exe e @anjeelo
 - Status do Projeto: Em Andamento 
