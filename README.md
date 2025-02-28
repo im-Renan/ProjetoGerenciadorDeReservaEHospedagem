@@ -20,36 +20,41 @@ O sistema permite cadastrar clientes e funcionários, gerenciar reservas, check-
 
 # Como Executar
 
-###**1-Requisitos**
+**1-Requisitos**
 
 - Java JDK 8+ instalado
 - MySQL instalado e rodando
 - Eclipse (ou outra IDE compatível)
 
-
-###**2-Configuração do Banco de Dados**
+**2-Configuração do Banco de Dados**
 
 * Antes de rodar o sistema, crie o banco de dados no **MySQL Workbench:**
   
 ```sql 
 CREATE DATABASE gerenciador_reservas;
-USE gerenciador_reservas; 
+USE gerenciador_reservas;
+```
 
  * Compilação e Execução
 
 1. Clone o repositório:
 
+```Bash
 git clone https://github.com/Deckard-exe/GerenciadorDeReservasEHospedagem.git
+```
 
-2. Importe o projeto no Eclipse.
+2. Importe o projeto no Eclipse ou IDE compatível.
 
 3. No arquivo ConexaoBD.java, altere as credenciais do banco:
-
+ ```Java
 private static final String URL = "jdbc:mysql://localhost:3306/gerenciador_reservas";
 private static final String USUARIO = "root"; 
 private static final String SENHA = "sua_senha";
+```
 
 4. Compile e execute o programa:
-
+```Java
 javac -d bin src/*.java
 java -cp bin Main
+```
+
