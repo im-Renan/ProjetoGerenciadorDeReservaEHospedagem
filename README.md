@@ -14,9 +14,13 @@ O sistema permite cadastrar clientes e funcionários, gerenciar reservas, check-
 • Gerenciar Serviços Adicionais: Inclui passeios turísticos e transfer.
 
 # Tecnologias Utilizadas
-* 🖥️ Linguagem de Programação: Java
-* 📂 Banco de Dados: MySQL
-* 🔗 Bibliotecas: JDBC (para conexão com MySQL), Swing (para interface gráfica)
+🖥️ Linguagem de Programação: Java
+
+📂 Banco de Dados: MySQL
+
+🔗 Bibliotecas: JDBC (para conexão com MySQL), Swing (para interface gráfica)
+
+Como Executar
 
 # Como Executar
 
